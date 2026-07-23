@@ -5,7 +5,7 @@
       "entrypoint": "sh",
       "args": [
         "-c",
-        "go run golang.org/x/playground/cmd/latestgo -prev -toolchain > /workspace/gobootstrapversion && echo GO_BOOTSTRAP_VERSION=`cat /workspace/gobootstrapversion`"
+        "go run golang.org/x/playground/cmd/latestgo -toolchain > /workspace/gobootstrapversion && echo GO_BOOTSTRAP_VERSION=`cat /workspace/gobootstrapversion`"
       ]
     },
     {
